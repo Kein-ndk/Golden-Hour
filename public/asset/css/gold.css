@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gap{
+    height: 3rem;
+}
+
+.title{
+    color: #3c3451;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 16px;
+    margin-top: 40px;
+    padding-bottom: 25px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    clear: both;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.title_border{
+    width: 5rem;
+    height: 3px;
+    background-color:#3c3451;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#banner2{
+    width: 100%;
+    height: 240px;
+    margin-top: 4rem;
+    background-color:black;
+    display: flex;
+    background-image: url(http://mauweb.monamedia.net/dongho/wp-content/uploads/2018/03/movement-gears-background.jpg);
+}
+
+#woman, #couple, #accessory{
+    margin-top: 50px;
+}
+
+#accessory, #more-infomation{
+    margin-top: 7rem;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    transition: 1.5s ease-out;
+}
+
+
+.product_item_details p{
+    text-align: center;
+}
+
+h6 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 80px;
+    margin-top: 23px;
+}
+
+p.price_item{
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.card {
+    padding: 10px;
+}
+
+.btn.btn-primary {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #050f1f;
+    border-color: #080808;
+}
+
+.more-infomation-details{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+.more-infomation-details p{
+    font-weight: bold;
+    font-size: 16px;
+    color: #767676;
+    line-height: 18px;
+    padding-top: 10px;
+
+}
+
+.last-banner img{
+    max-height: 200px;
+}
+
+h3{
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+.direction h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.search p{
+    color: #a4a4a4;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#search_text_email{
+    margin-top: 2rem;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 50%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact p{
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 20px;
+}
+
+.gap-last{
+    height: 100px;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.container-fuild .more-infomation-details {
+    overflow: hidden;
+}
+
+
+
+
+/* css menu */
+.nav-item{
+    margin-left: 20px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-link:hover, .nav-link:focus, li>.nav-link:active{
+    color: #a97854;
+    font-weight: 500;
+}
+
+.dropdown-item{
+    width: 200px;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+
+/* css btn */
+.btn {
+    background-image: linear-gradient(45deg, #a97854 0%, #cba487  51%, #a97854 100%)
+}
+
+.btn {
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+}
+
+.btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+
+/* product */
+.card img{
+    transition: all .5s ease-in-out;
+}
+
+.card img:hover{
+    transform: scale(1.1,1.1);
+    transition: all .5s ease-in-out;
+}
+
+
+/**/
+.card-title a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-title a:hover{
+    color: #a97854;
+}
+
+
+/*top bar*/
+.top-bar{
+    width: 100%;
+    height: 40px;
+    background-color: #B29C6E;
+}
+
+.form-outline{
+    width: 90%;
+}
+
+.form-control{
+    padding: 0.275rem 0.55rem;
+    margin-top: 2px;
+}
+
+.icon_topbar{
+    display: inline-flex;
+}
+
+.user .fa-user,
+.cart .fa-shopping-cart{
+    line-height: 40px;
+    color: white;
+    font-size: 17px;
+}
+
+.user .fa-user{
+    margin-right: 15px;
+}
+

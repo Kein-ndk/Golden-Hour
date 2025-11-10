@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    text-decoration-line: underline;
+    font-size: 300%;
+    color: darkgray;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons {
+    list-style: none;
+}
+.social-icons li {
+    display: inline-block;
+    font-size: 250%;
+    margin-left: 20px;
+    color: black;
+}
+.social-icons li i {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.social-icons li i:active,
+.social-icons li i:hover {
+    transform: scale(1.3);
+    color: #f5ea59;
+}
+
+#container_ct {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8) 55%, rgba(45, 95, 93, 0.4)), url(https://images7.alphacoders.com/411/411649.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+}
+
+.container-form {
+    width: 500px;
+    height: 645px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+.div {
+    margin-bottom: 20px;
+    zoom: 1;
+}
+
+label {
+    text-align: center;
+    font-size: 150%;
+    color: #fff;
+    top: 30px;
+    right: 20px;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="text"] {
+    width: 50%;
+    font-size: 100%;
+    color: #fff;
+    background-color: rgba(48, 47, 47, 0.8);
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    outline: 0;
+    padding: 10px;
+    background-color: rgba(48, 47, 47, 0.3);
+    border: 1px solid rgba(70, 68, 68, 0.7);
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input {
+    height: 50px;
+}
+
+.message {
+    margin-top:10px;
+    width: 33.26%;
+}
+
+#tx-message {
+    width: 66.13%;
+    resize: none;
+    height: 150px;
+    margin-left: 94px;
+    color: #fff;
+}
+
+
+input[type="submit"] {
+    font-weight: 700;
+    font-size: 100%;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 150px;
+}
+
+.sub {
+    background-color: #000000;
+    padding: 15px 30px;
+    margin: 0 5px;
+    display: inline-block;
+    transition: all 0.3s;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.sub:hover {
+    background-color: gray;
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+span {
+    margin-left: 90px;
+    color: red;
+    font-size: 100%;
+    display: block;
+}
+
+/**************** START RESPONSIVE MEDIA SCREEN *****************/
+/* media_type: screen, all, print  */
+
+/****** Tablet -> PC *******/
+@media (min-width: 768px) {
+}
+
+/****** Tablet -> PC *******/
+@media (min-width: 1024px) {
+}
+
+/* View screen 13 - 14.6 inch. 1360, 1366px */
+@media (min-width: 1024px) and (max-width: 1370px) {
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .container-form {
+        width: 400px;
+    }
+
+    input[type="submit"] {
+        margin-left: 100px;
+    }
+}
+
+/* iPhone 5, X, XR */
+@media (max-width: 376px) {
+    h1 {
+        font-size: 200%;
+    }
+
+    .container-form {
+        width: 300px;
+        height: 450px;
+    }
+
+    .div {
+        margin-bottom: 0;
+    }
+
+    #tx-message {
+        width: 60%;
+        resize: none;
+        height: 100px;
+        margin-left: 94px;
+    }
+
+    input[type="submit"] {
+        font-size: 70%;
+        width: 120px;
+        margin-left: 90px;
+    }
+}
+/**************** END RESPONSIVE MEDIA SCREEN *****************/
+
+
